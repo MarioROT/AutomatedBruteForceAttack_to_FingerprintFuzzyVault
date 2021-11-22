@@ -1,4 +1,4 @@
-# Módulo con herramientas para graficar. 
+# Módulo con herramientas para graficar.
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -141,7 +141,7 @@ def groupedBarPlot(data, xticks, title,legend=True,axislabels = False,width=0.35
     if lg:
         ax.set_xticks(x)
     if xtick_rot:
-        ax.set_xticklabels(xticks, rotation = 90)
+        ax.set_xticklabels(xticks, rotation = xtick_rot)
     else:
         ax.set_xticklabels(xticks)
 
